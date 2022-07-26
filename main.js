@@ -7,8 +7,7 @@ var boton = document.querySelector("button")
 function peticionGatito ( ){
     fetch(URL)
 .then(function(response){
-    //esta funcion se ejecuta si salio bien la peticion 
-    //console.log(response); 
+     
     return response.json();  
 })
 .then(function(data){
